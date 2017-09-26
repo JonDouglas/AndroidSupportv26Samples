@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/root"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+>
+
+  <SeekBar
+    android:id="@+id/stiffness"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp" />
+
+  <SeekBar
+    android:id="@+id/damping"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp" />
+
+  <View
+    android:id="@+id/box"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_margin="140dp"
+    android:background="@color/colorPrimary" />
+
+</FrameLayout>
