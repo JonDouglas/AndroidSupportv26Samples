@@ -1,3 +1,5 @@
 # AndroidSupportv26Samples
 
-These are samples based on Nick Butcher's(https://github.com/nickbutcher) gists.
+EndlessPinJump & SpringAnimationSample based on (https://github.com/nickbutcher) gists.
+
+AndroidToAppleVectorLogo - https://github.com/lewismcgeary/AndroidtoAppleVectorLogo
