@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+     tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/path_morph_animated_vector"
+        android:src="@drawable/android_logo_vector_morphable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
